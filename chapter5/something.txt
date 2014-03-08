@@ -1,0 +1,17 @@
+from urllib.request import urlopen
+
+class WebPage:
+    def __init__(selfii, url):
+        selfii.url = url
+        selfii._content = None
+
+    @property
+    def content(selfii):
+        if not selfii._content:
+            print("Retrieving Page...")
+            selfii._content = urlopen(selfii.url).read()
+        return selfii._content
+
+    @content.setter
+    def content(selfii, value):
+        selfii._content = value
