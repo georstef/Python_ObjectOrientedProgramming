@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ergazomenoi xmlns="http://www.yeka.gr/SK" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ergazomenos xmlns="">
+    <f_aa>44</f_aa>
+    <f_afm>022***640</f_afm>
+    <f_amka/>
+    <f_eponymo/>
+    <f_onoma/>
+    <f_onoma_patera/>
+    <f_onoma_miteras/>
+    <f_sex>0</f_sex>
+    <f_birthdate>30/12/1899</f_birthdate>
+    <f_marital_status>0</f_marital_status>
+    <f_arithmos_teknon>0</f_arithmos_teknon>
+    <f_eidikothta/>
+    <f_date_proslipsis>30/12/1899</f_date_proslipsis>
+    <f_proipiresia>0</f_proipiresia>
+    <f_date_anaggelias>30/12/1899</f_date_anaggelias>
+    <f_arithmos_vivliou_anilikou/>
+    <f_arithmos_adeias_ergasias/>
+    <f_wres_ergasias/>
+    <f_wres_external>0</f_wres_external>
+    <f_wres_dialeimatos/>
+    <f_apodoxes>0,00</f_apodoxes>
+    <f_parathrhseis/>
+    <f_special_case/>
+    <f_xaraktirismos>1</f_xaraktirismos>
+    <f_week_hours>40,0</f_week_hours>
+    <f_change_date>30/12/1899</f_change_date>
+    <f_hour_apodoxes>1000,00</f_hour_apodoxes>
+  </Ergazomenos>
+</Ergazomenoi>
+

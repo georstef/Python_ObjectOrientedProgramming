@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}My Blog{% endblock %}
+{% block content %}
+	{% for article in articles %}
+		<h2>{{article.article_title}}</h2>
+		<em>{{article.article_publish_date.strftime('%b %d %Y')}}</em>
+		<p>{{article.articlemessage}}</p>
+		<div style="margin-left: 6em">
+			<h3>Comments</h3>
+			{% for comment in article.comments %}
+				<em>{{comment.comment_name}} wrote:</em>
+				<p>
+				{{comment.comment_message}}
+				</p>
+			{% endfor %}
+			{% include "comment_form.html" %}
+		</div>
+		<hr />
+	{% endfor %}
+{% endblock %}
